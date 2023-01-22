@@ -1,68 +1,67 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1590088285300-e236300b7f99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHBpYW5vJTIwYW5kJTIwaGFuZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-color: #000;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
+  background-image: url(https://images.unsplash.com/photo-1590088285300-e236300b7f99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHBpYW5vJTIwYW5kJTIwaGFuZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+  text-align: center;
+  font-family: "Playfair Display", serif;
 }
 
 .background {
-    background-color: rgba(0, 0, 0, 0.42);
-    width:100vw;
-    height: 100vh;
+  background-color: rgba(0, 0, 0, 0.42);
+  width: 100vw;
+  height: 100vh;
 }
 
 .piano {
-    max-width: 700px;
-    height: 400px;
-    margin: 50px auto;
-    padding: 30px;
-    display: flex;
+  max-width: 700px;
+  height: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  display: flex;
 }
 
 .key {
-    width: 100px;
-    height: 100%;
-    border: 2px solid #000;
-    border-radius: 0 0 5px 5px;
-    cursor: pointer;
-    box-shadow: inset -2px -2px 5px #000;
-    font-size: 40px;
-    background: #fff;
-    /* 'user-select' is not supported by Safari, Safari on iOS.
+  width: 100px;
+  height: 100%;
+  border: 2px solid #000;
+  border-radius: 0 0 5px 5px;
+  cursor: pointer;
+  box-shadow: inset -2px -2px 5px #000;
+  font-size: 40px;
+  background: #fff;
+  /* 'user-select' is not supported by Safari, Safari on iOS.
     Need to add '-webkit-user-select' to support Safari 3+, Safari on iOS 3+. */
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    transition: .1s;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: 0.1s;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .key-b {
-    background: #000;
-    font-size: 30px;
-    color: #fff;
-    width: 70px;
-    height: 60%;
-    margin-left: -35px;
-    margin-right: -35px;
-    z-index: 2;
+  background: #000;
+  font-size: 30px;
+  color: #fff;
+  width: 70px;
+  height: 60%;
+  margin-left: -35px;
+  margin-right: -35px;
+  z-index: 2;
 }
 
-.key.activ {
-    background: #ccc;
+.key-w:active {
+  background: #ccc;
 }
-
-.key-b.activ {
-    background: #333;
+.key-b:active {
+  background: #333;
 }
