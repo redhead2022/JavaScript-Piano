@@ -11,6 +11,8 @@ body {
   background-color: #000;
   text-align: center;
   font-family: "Playfair Display", serif;
+ 
+  
 }
 
 .background {
@@ -19,11 +21,16 @@ body {
   height: 100vh;
 }
 
+h1 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+}
+
 .piano {
   max-width: 700px;
   height: 400px;
   margin: 30px auto;
-  padding: 30px;
   display: flex;
 }
 
@@ -64,4 +71,24 @@ body {
 }
 .key-b:active {
   background: #333;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#pictures {
+    width: 500px;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.42);
+    border: 2px solid black;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    padding: 0 10px;
 }
