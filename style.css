@@ -22,7 +22,7 @@ body {
 .piano {
   max-width: 700px;
   height: 400px;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 30px;
   display: flex;
 }
